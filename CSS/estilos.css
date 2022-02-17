@@ -9,7 +9,7 @@ body{
 
 #cabecera
 {
-    background: #88a;
+    background: rgb(37, 37, 231);
     box-shadow: 0px 2px 50px 0px rgba(0,0,0,0.5);
     color: white;
     margin: 0;
@@ -28,7 +28,7 @@ body{
 
 #container
 {
-    width: 70%;
+    width: 80%;
     padding: 1em;
     text-align: left;
     border: 1px solid hotpink;
