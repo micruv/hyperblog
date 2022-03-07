@@ -11,11 +11,13 @@ def conver(tipo_peso, dollar, opcion):
     resultado = str(resultado)
     print ("usted tiene:" + resultado + " dolares")
 menu = """
-bienvenidos al conversor de monedas, elija que tipo de moneda decea convertir
+bienvenidos al conversor de monedas asu equivalente en dollar, elija que tipo de moneda decea convertir
  
  1-pesos Dominicanos
  2-pesos Colombianos
- 3- pesos Mexicano
+ 3-pesos Mexicano
+ 4-pesos Argentino
+ 5-Bolivares
  
  elige una ocpion: """
 
@@ -26,7 +28,11 @@ if opcion == 1:
 elif opcion ==2:
    conver(" Pesos Colombiano", 3875, "  opcion 2")
 elif opcion ==3:
-   conver(" Pesos Argentino", 65.57, "  opcion 3")
+   conver(" Pesos Mexicano", 65.57, "  opcion 3")
+elif opcion ==4:
+    conver(" Pesos Argentino", 65.57, "  opcion 3")
+elif opcion ==5:
+    conver(" Bolivares", 65.57, "  opcion 3")
 else:
     print("ingrece una opcopn valida que contenga solo numeros")
 
