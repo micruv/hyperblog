@@ -28,10 +28,10 @@ body{
 
 #container
 {
-    width: 80%;
+    width: 70%;
     padding: 1em;
     text-align: left;
-    border: 1px solid hotpink;
+    border: 1px solid #ddd;
     margin: 0 auto;
 }
 #container h1
@@ -42,4 +42,11 @@ body{
 #post
 {
 padding: 1em;
+}
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
