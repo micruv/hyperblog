@@ -28,25 +28,29 @@ body{
     padding:  0 0 0 1em ;
     font-weight: normal;
     font-size: 0.8em;
-
-
 }
 
 #container
 {
-    width: 80%;
+    width: 70%;
     padding: 1em;
     text-align: left;
-    border: 1px solid hotpink;
+    border: 1px solid #ddd;
     margin: 0 auto;
 }
 #container h1
 {
     font-size: 20PX;
-
 }
 #post
 {
     background: white;
     padding: 1em;
+}
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
 }
