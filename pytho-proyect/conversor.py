@@ -1,6 +1,9 @@
 #return - para regresar un resultado
 # def para crear funciones
 
+from ast import Return
+
+
 def conver(tipo_peso, dollar, opcion):
     print("has seleccionado la " + opcion)
     peso = input ("digite el monto a convertir de " + tipo_peso +" a dollar: ")
@@ -34,7 +37,8 @@ elif opcion ==4:
 elif opcion ==5:
     conver(" Bolivares", 65.57, "  opcion 3")
 else:
-    print("ingrece una opcopn valida que contenga solo numeros")
+    print("ingrece una opcopn valida que contenga solo numeros del 1 al 5")
+    #return menu;
 
 
 
