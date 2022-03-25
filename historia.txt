@@ -5,3 +5,5 @@ tiene 24 anos
 y soy alto
 y estoy aprendiendo a hacer un commit
 esto va a explotar jajajaj
+tambien quiero agrgegar que soy un nuevo colaborador
+mi nombres es mj Linux
